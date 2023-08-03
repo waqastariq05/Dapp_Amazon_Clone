@@ -1,0 +1,25 @@
+.carousel .carousel-inner {
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.carousel .carousel-inner .carousel-item {
+    mix-blend-mode: multiply;
+}
+
+.carousel .carousel-control-prev {
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+
+.carousel .carousel-control-next {
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.carousel button .carousel-control-prev-icon,
+.carousel button .carousel-control-next-icon {
+
+    width: 30%;
+    height: 30vh;
+}

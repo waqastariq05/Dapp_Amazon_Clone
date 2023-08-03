@@ -1,0 +1,20 @@
+.productSection {
+    margin: 20px 0;
+}
+
+.productSection .body {
+    margin: 30px 0;
+}
+
+.productSection .body tbody {
+    vertical-align: middle;
+}
+
+.productSection .body tbody img {
+    width: 50px;
+}
+
+.productSection .body tbody button {
+    padding: 5px 15px;
+    font-size: 15px;
+}

@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar:wght@300;400;500;700&display=swap");
+
+:root {
+  --orange: #FF9900;
+  --orange-dark: #e77f07;
+  --black: #242d49;
+  --bunker: #131921;
+}
+
+.App {
+  font-family: "open sans";
+  font-weight: 600;
+  color: var(--black);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, .8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 11;
+  cursor: pointer;
+}
+
+a:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+input:focus,
+input:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #dee2e6 !important;
+}
+
+textarea:focus,
+textarea:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #dee2e6 !important;
+}
+
+.btn {
+  background: var(--orange);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 25px 10px 25px;
+  text-transform: capitalize;
+}
+
+.btn:hover {
+  transition: 0.4s ease;
+  background: var(--orange-dark);
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn:focus-visible {
+  color: #fff;
+  background: var(--orange-dark);
+  box-shadow: none;
+}
+
+.btn:active {
+  background: var(--orange-dark);
+}
+
+.btn:disabled {
+  color: #fff;
+  border: none;
+  background: var(--orange-dark);
+}
+
+.top {
+  margin-bottom: 20px;
+  padding: 20px 0;
+  border-bottom: 2px solid #ccc;
+}
+
+.top h2 {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+
+.top h4 {
+  font-size: 22px;
+  font-family: 700;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+.product {
+  margin: 30px 0;
+}
+
+.product .container {
+  padding: 10px 100px;
+}

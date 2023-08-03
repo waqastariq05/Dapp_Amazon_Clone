@@ -1,0 +1,70 @@
+.dashboard {
+    margin: 30px 0 50px;
+}
+
+.dashboard .card {
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dashboard .card .card-body {
+    padding: 20px;
+}
+
+.dashboard .card .card-body .card-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.dashboard .card .card-body h4 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.dashboard .card .card-body h4 span {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.dashboard .card .card-body .card-text {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* Transaction Card */
+.dashboard .transactionCard .card {
+    padding: 20px 0;
+}
+
+.dashboard .transactionCard .card .card-img-top {
+    width: 40px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
+.dashboard .transactionCard .card .card-body {
+    padding: 30px 20px 0;
+}
+
+.dashboard .transactionCard .card .card-body .card-title {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.dashboard .transactionCard .card .card-body .card-text {
+    font-size: 25px;
+    font-weight: 800;
+    color: var(--black);
+    margin-bottom: 10px;
+}
+
+.dashboard .transactionCard .card .card-body .card-subText {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #444;
+}

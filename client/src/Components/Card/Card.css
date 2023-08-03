@@ -1,0 +1,36 @@
+.card {
+    border: 0;
+    cursor: pointer;
+}
+
+.card .card-img-top {
+    max-width: 100%;
+}
+
+.card .card-body .card-title {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: 'Roboto';
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.card .card-body .star {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    gap: 5px;
+    margin-bottom: 12px;
+}
+
+.card .card-body .star img {
+    max-width: 15px;
+}
+
+.card .card-body p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 0;
+    color: #444;
+}
